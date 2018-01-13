@@ -1,0 +1,108 @@
+.zero {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    
+}
+.start {
+    color: white;
+    font-size: 15px;
+}
+
+.blue {
+    text-align: center;
+}
+
+.navbar-header {
+    text-align: right;
+}
+
+.first {
+    background-color: #4C6CFE;
+}
+
+.scrolling {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.landing {
+    color: white;
+    font-size: 15px;
+}
+
+.sentence {
+    font-size: 20px;
+}
+
+.sentence1 {
+    font-size: 15px;
+}
+
+.words {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.third {
+    background-color: #F8F9FA;
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+.five {
+    background-color: #393C42;
+    height: 70px;
+}
+
+#copy {
+    color: white;
+}
+
+.end {
+    margin-top: 3%;
+}
+
+.przycisk {
+    border-color: white;
+}
+@media (min-width: 992px) {
+    
+    .linki {
+        height: 0px;
+    }
+    .przycisk {
+        display: none;
+    }
+
+    .collapse {
+       display: block;
+    }
+
+    .nav-link {
+        position: relative;
+        display: inline;
+        color: white;
+        font-size: 12px;
+    }
+
+   
+}
+
+@media (max-width: 576px) { 
+    
+    .przesuniecie {
+        padding-top: 14%;
+    }
+       
+    
+}
+
+.scrolled{
+    color: red;
+    transition: 0.3s;
+  }
